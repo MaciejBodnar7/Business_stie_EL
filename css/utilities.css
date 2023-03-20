@@ -14,18 +14,12 @@
     color: white;
     background-color: #28a745;
     border: none;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
-.content a i {
-    transition: 1s;
-    
+.btn:hover {
+    opacity: 0.9;
 }
-
-.content a i:hover {
-    opacity: 0.8;
-}
-
 
 /* ----------- */
 
