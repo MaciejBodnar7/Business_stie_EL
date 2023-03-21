@@ -56,6 +56,25 @@
     color: #333;
 }
 
+.btn-dark {
+    border: #333 solid 3px;
+}
+
+.btn-dark:hover {
+    opacity: 0.9;
+    transform: translateX(3px);
+    border: #28a745 solid 3px;
+}
+
+.btn-light {
+    border: #f4f4f4 solid 3px;
+}
+
+.btn-light:hover {
+    transform: translateX(3px);
+    border: #28a745 solid 3px;
+}
+
 .btn-outline {
     background: transparent;
     border: 2px solid white;
