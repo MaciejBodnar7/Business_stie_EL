@@ -209,6 +209,6 @@ footer a:hover {
     .navbar {
         flex-direction: column;
         height: 120px;
-        padding: ;
+        padding: 20px;
     }
 }
