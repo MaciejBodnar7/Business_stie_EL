@@ -108,6 +108,11 @@ img {
 }
 
 /* Icons */
+.asd {
+    padding: 30px;
+    margin: 5px;
+}
+
 .icons {
     padding: 30px;
 }
@@ -129,19 +134,71 @@ img {
     transition: 0.3s;
 }
 
+.cases h2 {
+    font-weight: 600;
+    margin-top: 0px;
+}
+
 .cases img:hover {
     opacity: 0.8;
     scale: 102%;
 }
 
+/* Team */
 .team img {
     border-radius: 15px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
-.team img:hover {
-    opacity: 0.8;
+.team .imghov {
+    border-radius: 15px;
+    transition: 0.4s;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.team .imghov img:hover {
+    opacity: 0.9;
     scale: 102%;
+}
+
+.team .imghov:hover {
+    transform: scale(102%);
+    background-color: #ebe9e9;
+    border-radius: 10px;
+}
+
+
+#team h2 {
+    font-weight: 600;
+}
+
+.section-header {
+    padding: 20px;
+}
+
+#team .teamimgandh4p h4 {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+#team .teamimgandh4p p {
+    margin-top: 5px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+/* 000000 */
+
+div .asd {
+    transition: 0.4s;
+}
+
+div .asd:hover {
+    transform: scale(102%);
+    background-color: #ebe9e9;
+    border-radius: 10px;
 }
 
 /* Callback form */
@@ -161,10 +218,19 @@ img {
 
 .callback-form input {
     width: 100%;
-    padding: 4px;
+    padding: 5px;
     height: 40px;
     border: #f5f5f5 1px solid;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #333;
 }
+
+.callback-form input:placeholder-shown {
+    font-weight: 100;
+    color: #333;
+}
+
 
 .callback-form input:focus {
     outline-width: 2px;
@@ -211,14 +277,26 @@ footer a:hover {
         height: 120px;
         padding: 20px;
     }
-}
 
-div .asd {
-    transition: 0.4s;
-}
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
 
-div .asd:hover {
-    transform: scale(102%);
-    background-color: #ebe9e9;
-    border-radius: 10px;
+    .hero .content h1 {
+        font-size: 3rem;
+    }
+
+    .hero .content p {
+        font-size: 1.2rem;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column, .flex-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
