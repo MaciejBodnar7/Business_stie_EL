@@ -6,6 +6,7 @@
 .text-secondary {
     color: #0284d0;
 }
+
 /* Button */
 .btn {
     cursor: pointer;
@@ -24,21 +25,33 @@
     border: white solid 2px;
 }
 
+#submit {
+    transform: none;
+    border: none;
+}
+
 /* ----------- */
 
-.btn-primary, .bg-primary {
+.btn-primary,
+.bg-primary {
     background: #28a745;
     color: white;
 }
-.btn-secondary, .bg-secondary {
+
+.btn-secondary,
+.bg-secondary {
     background: #0284d0;
     color: white;
 }
-.btn-dark, .bg-dark {
+
+.btn-dark,
+.bg-dark {
     background: #333;
     color: white;
 }
-.btn-light, .bg-light {
+
+.btn-light,
+.bg-light {
     background: #f4f4f4;
     color: #333;
 }
@@ -56,7 +69,7 @@
     height: 100%;
 }
 
-.flex-items > div {
+.flex-items>div {
     padding: 20px;
 }
 
@@ -79,7 +92,7 @@
     flex: 1;
 }
 
-.flex-columns .column .column-1, 
+.flex-columns .column .column-1,
 .flex-columns .column .column-2 {
     height: 100%;
 }
@@ -147,3 +160,7 @@
     padding: 0 4px;
 }
 
+/* Placeholder */
+input::placeholder {
+    opacity: 0.3;
+}

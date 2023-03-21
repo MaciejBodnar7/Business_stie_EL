@@ -9,10 +9,11 @@ body {
 }
 
 a {
-	color: #333;
+    color: #333;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-weight: 300;
     line-height: 1.2;
 }
@@ -31,6 +32,7 @@ img {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
 .navbar {
     display: flex;
     align-items: center;
@@ -124,10 +126,80 @@ img {
 }
 
 .cases img {
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .cases img:hover {
     opacity: 0.8;
     scale: 102%;
+}
+
+.team img {
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.team img:hover {
+    opacity: 0.8;
+    scale: 102%;
+}
+
+/* Callback form */
+.callback-form {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.callback-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.callback-form .form-control {
+    margin-bottom: 15px;
+}
+
+.callback-form input {
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: #f5f5f5 1px solid;
+}
+
+.callback-form input:focus {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: #28a745;
+}
+
+.callback-form .btn {
+    padding: 12px 0;
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+.footer a {
+    color: white;
+    transition: 0.4s;
+}
+
+footer a:hover {
+    color: #28a745;
+}
+
+.footer .social>* {
+    margin-right: 30px;
+}
+
+.footer .social>*:last-child {
+    margin: 0;
 }
