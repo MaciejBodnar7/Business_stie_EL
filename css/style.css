@@ -28,6 +28,15 @@ img {
 
 /* Style */
 /* Navbar */
+#logoglowne {
+    transition: 0.2s;
+}
+
+#logoglowne:hover {
+    scale: 103%;
+    border-bottom: none;
+}
+
 .navbar .logo {
     font-size: 1.5rem;
     font-weight: 400;
@@ -108,7 +117,7 @@ img {
 }
 
 .hero.blog {
-    background: url('../img/home/blog.jpg') no-repeat center center/cover ;
+    background: url('../img/home/blog.jpg') no-repeat center center/cover;
     height: 30vh;
 }
 
@@ -269,22 +278,25 @@ div .asd:hover {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
-  
+}
+
 .post .container img {
     align-self: stretch;
     width: 40%;
     object-fit: cover;
     border-radius: 10px;
-    flex-basis: 30%; /* Adjust as needed */
-    margin-right: 10px; /* Add some space between the image and content */
+    flex-basis: 30%;
+    /* Adjust as needed */
+    margin-right: 10px;
+    /* Add some space between the image and content */
 }
-  
+
 .content {
-    flex-basis: 68%; /* Adjust as needed */
+    flex-basis: 68%;
+    /* Adjust as needed */
 }
-  
-  
+
+
 
 /* Footer */
 .footer {
@@ -338,7 +350,8 @@ footer a:hover {
         flex-direction: column;
     }
 
-    .flex-columns .column, .flex-grid .column {
+    .flex-columns .column,
+    .flex-grid .column {
         flex: 100%;
         max-width: 100%;
     }
